@@ -1,2 +1,2 @@
-# python_tools_and_practice_v3.8
+# python_tools_and_practice
 repo of automate the boring stuff learning track 
