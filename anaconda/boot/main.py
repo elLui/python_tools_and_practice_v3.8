@@ -19,11 +19,28 @@ class Circle(object):
         return self.radius * self.pi * 2
 
 
+class Animal():
+
+    def __init__(self):
+        print('animal created')
+    def who_am_i(self):
+        print('i am an animal')
+    def eat(self):
+        print('i am eating')
+
+class Dog(Animal):
+    def __init__(self):
+        Animal.__init__(self)
+        print('dog created')
+
+
+
 if __name__ == '__main__':
     print_hi('PyCharm')
     my_circle = Circle(30)
     print(my_circle.pi)
     print(my_circle.get_circumf())
+    print()
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
