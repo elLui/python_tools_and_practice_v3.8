@@ -1,0 +1,2 @@
+spam = print()
+print(spam)
